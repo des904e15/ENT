@@ -5,6 +5,10 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
+\usepackage[backend=bibtex,
+  bibencoding=utf8,natbib
+  ]{biblatex}
+\addbibresource{bib}
 
 \title{Your Paper}
 
@@ -58,5 +62,7 @@ SELL
 
 \section{Business model}
 \todo{Se på requirements}
+
+\printbibliography[heading=bibintoc]
 
 \end{document}
