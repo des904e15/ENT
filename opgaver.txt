@@ -13,6 +13,6 @@ Individuelle opgaver:
 * Value chain - skriv teori og beskrivelse
 * Resource-based theory - same as above
 * Business model - figur skal indsættes - teori+tekst!?
-* Karakteriser og diskuter value proposition
-* Pattern overvejelser
-* Strategy concerns
+* Karakteriser og diskuter value proposition - jeremy: s.40-70
+* Pattern overvejelser - ostebog: s. 52-119
+* Strategy concerns - ostebog: 192-231
