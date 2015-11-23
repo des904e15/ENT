@@ -9,8 +9,8 @@ Kollektive opgaver/spørgsmål:
 
 Individuelle opgaver:
 * Storytelling: Comic strip - sæt billeder i rækkefølge og skriv tekst til [MIKKEL]
-* Five forces [STEFAN]
-* Value chain - skriv teori og beskrivelse [STEFAN]
+✓ Five forces [STEFAN]
+✓ Value chain - skriv teori og beskrivelse [STEFAN]
 * Resource-based theory - same as above [BRUNO]
 * Business model - figur skal indsættes - teori+tekst!? [BRUNO]
 * Karakteriser og diskuter value proposition - jeremy: s.40-70 [WILDCARD]
