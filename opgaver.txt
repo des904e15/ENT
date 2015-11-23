@@ -1,10 +1,10 @@
-Overordnet:
+﻿Overordnet:
 * Husk kilder
 * Husk teoribeskrivelser
 
 Kollektive opgaver/spørgsmål:
 * ADE elle CDA? Alle skal læse i jeremys bog side 27-38					DONE
-* Phase or activities? Alle skal læse i ostebogen side 244-?
+* Phase or activities? Alle skal læse i ostebogen side 244-?				DONE
 * Valg af papers
 
 Individuelle opgaver:
@@ -16,4 +16,4 @@ Individuelle opgaver:
 * Karakteriser og diskuter value proposition - jeremy: s.40-70
 * Pattern overvejelser - ostebog: s. 52-119
 * Strategy concerns - ostebog: 192-231
-* Skriv ADE og CDA afsnittet pænere
+* Skriv ADE og CDA afsnittet pænere inkl. phases
