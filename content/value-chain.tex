@@ -9,6 +9,7 @@ Følgendende beskrivelse er baseret på \citet[p.~12]{rose2012software}.
 
 Aktiviterer inddeles i to kategorier, de primære og support aktiviteter.
 De primære aktiviteter beskriver hvordan virksomheden omdanner rå materialer til det færdige produkt på hylden ved at tilføje værdi.
+Support aktiviteterne bidrager til denne omdannelse uden direkte at tilføre værdi, dette kan eksempelvis være research.
 Modellen er illustreret på  \cref{valuechain}.
 
 \begin{figure}
@@ -17,30 +18,41 @@ Modellen er illustreret på  \cref{valuechain}.
 	\label{valuechain}
 \end{figure}
 
-\paragraph{Application}
-We have used 
+\paragraph{Model af SharePass}
+Følgende er en valuechain model af SharePass virksomheden.
+De primære aktiviteter består i at indkøbe de hardwaredele som vi ikke selv kan stå for at producere.
+Vi tilføjer derefter værdi til disse ved at designe sikkerhedsprotokoller til enhederne samt software til klient og server.
+Værdien består primært i at lave en løsning der virker med et minimum af interaktion men stadig sikkert.
+Salgsdelen går derefter ud på at sælge produktet til virksomheder og derefter yde support så de får mest muligt ud af produktet.
 
-\subsubsection*{Primary activities}
-BUY:
+Til at muliggøre de primære aktiviteter benyttes supportaktiviteterne.
+For at sikre den højst mulige sikkerhed er det nødvendigt at hyre eksperter i sikkerhed.
+Ligeledes har vi brug for ekspertise inden for udvikling af hardwaredelen af produktet.
+Der skal derfor også hyres eksperter inden for elektronik og hardware samt koblingen mellem elektronikken og software systemet.
+For at få produktet solgt er det vigtigt at henvende sig til virksomheder på en måde der kan overbevise dem om hvorvidt de har et behov for produktet.
+Til dette skal der bruges en marketingafteling.
+
+\subsubsection*{Primære aktiviteter}
+Køb:
 \begin{itemize}
 \item NFC kort
 \item Fysisk login med NFC kort hos firma - her opdateres passwords på kortet
 \end{itemize}
-ADD VALUE:
+Tilføj værdi:
 \begin{itemize}
 \item Sikkerhedsprotokol mellem fysisk login portal og server
 \item Sikkerhedsprotokol mellem klient og NFC kort
 \item Sikkerhedsprotokol mellem fysisk login portal og NFC kort
 \item Software til password server
+\item Software til klient
 \end{itemize}
-SELL:
+Sælg:
 \begin{itemize}
-\item Sælg bedste produkt i verden
-\item Tjen en masse penge på support
+\item Sælg produkt som pakke
+\item Tilbyd support
 \end{itemize}
 
-\subsubsection*{Support activities}
-SELL
+\subsubsection*{Support aktiviteter}
 \begin{itemize}
 \item Marketing
 \item Hyre - sikkerhedsekspert, hardwaredesigner
