@@ -125,4 +125,5 @@ sympy-plots-for-*.tex/
 *.bak
 *.sav
 /master.pdf
+clean.bat
 *~
