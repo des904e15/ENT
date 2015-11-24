@@ -1,0 +1,52 @@
+\subsection{Storytelling - en comic strip}
+\todo{Titel?}
+Dette afsnit præsenterer i \cref{story:badpass:boss} og \cref{story:sharing} potentielle problemstillinger afhjulpet ved brug af SharePass.
+I \cref{story:badpass} anvender en virksomheds medarbejdere dårlige\footnote{Eksempelvis meget korte eller almindeligt brugte adgangskoder.} adgangskoder.
+I \cref{story:sharing} deles adgangskoder (eksempelvis for nye medarbejdere) via email.
+Alternativt ville denne deling også kunne ske på papir ved at ophænge \emph{fælles} adgangskoder i kontorer.
+
+Problemerne afhjælpes i \cref{story:sharepass} med SharePass.
+Her får virksomhedens direktør et system der løser ovenstående problemer ved automatisk at generere nye adgangskoder for systemets medarbejdere og lade disse blive anvendt ved hjælp af elektroniske identifikations-kort.
+
+{
+% Command and settings for creating the storytelling comics
+\newcommand{\storyfig}[1]{\fbox{\includegraphics[height=5cm]{graphics/story_#1}}}
+\setlength\fboxsep{0pt}
+\setlength{\fboxrule}{1pt}
+
+\begin{sidewaysfigure}
+\centering
+\subfloat[En virksomhed bestående af direktør Steen og hans to ansatte Anders og Birte.]
+{\storyfig{01}\label{story:badpass:init}} \quad
+\subfloat[Anders og Birte tilgår services ved hjælp af deres adgangskoder \emph{abc} og \emph{1234}.]
+{\storyfig{03}\label{story:badpass:pass}} \quad
+\subfloat[Steen er bekymret for beskyttelsen af virksomhedens oplysninger på grund af medarbejdernes valg af koder.]
+{\storyfig{04}\label{story:badpass:boss}}
+\caption{Medarbejdere anvender dårlige adgangskoder}\label{story:badpass}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+\centering
+\subfloat[En virksomhed bestående af direktør Steen og hans to ansatte Anders og Birte.]
+{\storyfig{01}\label{story:sharing:init}} \quad
+\subfloat[Anders mangler adgang til en applikation og Birte sender derfor den fælles adgangskode til Anders via email.]{\storyfig{07}\label{story:sharing:pass}} \quad
+\subfloat[Steen er bekymret for beskyttelsen af virksomhedens adgangskoder på grund af medarbejdernes delings-metode.]
+{\storyfig{05}\label{story:sharing:boss}}
+\caption{Deling af adgangskoder foregår åbent og ukrypteret.}\label{story:sharing}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+\centering
+\subfloat[Anders og Birte får hver udleveret et personligt identifikations-kort med en NFC chip.]
+{\storyfig{08}\label{story:sharepass:nfc}} \quad
+\subfloat[De koder Anders og Birte anvender er ikke længere selvbestemt.
+Der anvendes derfor længere og ikke almindelige adgangskoder.]
+{\storyfig{09}\label{story:sharepass:login}}\\
+\subfloat[Adgangskoder administreres af en central server og deles elektronisk med medarbejdernes kort.
+Ændring af adgangskoder og tildeling af licenser/koder til en medarbejder administrerers af det centrale system.]
+{\storyfig{11}\label{story:sharepass:server}} \quad
+\subfloat[Steen er tilfreds da han nu har mulighed for, via det centrale system, at administrere Anders og Birtes licenser og er sikret at adgangskoderne er lange.]
+{\storyfig{10}\label{story:sharepass:success}}
+\caption{Brug af SharePass sikrer at Steens medarbejdere anvender bedre\\ adgangskoder og administrerer deling blandt medarbejderne.}\label{story:sharepass}
+\end{sidewaysfigure}
+}
