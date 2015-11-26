@@ -8,7 +8,7 @@ Kollektive opgaver/spørgsmål:
 * Valg af papers
 
 Individuelle opgaver:
-* Storytelling: Comic strip - sæt billeder i rækkefølge og skriv tekst til [MIKKEL]
+✓ Storytelling: Comic strip - sæt billeder i rækkefølge og skriv tekst til [MIKKEL]
 ✓ Five forces [STEFAN]
 ✓ Value chain - skriv teori og beskrivelse [STEFAN]
 ✓ Resource-based theory - same as above [BRUNO]
