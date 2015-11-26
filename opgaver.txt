@@ -17,3 +17,4 @@ Individuelle opgaver:
 ✓ Pattern overvejelser - ostebog: s. 52-119 [MIKAEL]
 * Strategy concerns - ostebog: 192-231 [MIKKEL]
 ✓ Skriv ADE og CDA afsnittet pænere inkl. phases [MIKAEL]
+* Discuss your canvas model. For example describe how it supports the implementation of your idea. Is it likely to change over time? (Big Bang/MVP/Bootstrapping)
