@@ -28,20 +28,28 @@
 \maketitle
 \listoftodos
 
-\bruno{Skal vi tilføje kontor og et kontor/rum til demo-setup som en ressource og evt. en aktivitet i mobilize som hedder at finde det rigtige faciliteter?}
 \stefan{husk at indsætte refs!}
-\mikael{kort teoretisk opsummering når det bruges}
 
 \section{Idé}
-\bruno{Overvej fysisk login portal!}
-Password manager med deling for firmaer og private
+Dette afsnit vil indføre læseren i vores ide hvilket vil gøre det lettere at følge resten af rapportens indhold.
+Først vil ideen blive præsenteret uformelt for derefter at blive præsenteret gennem storytelling.
 
-En form for hardware der lagrer krypterede passwords fx en USB nøgle med indbygget software der sørger for at anvende de rigtige koder.
-Lokal central der indeholder alle passwords, som nøgle synkroniseres fra.
-Administrering af egne nøgler, samt deling af disse.
-Automatisk opdatering af intra-net systemers nøgler (tænk nyt password hver måned).
+Vi ønsker at udvilke en password manager med deling for firmaer og private
+
+Det primære produkt er et NFC kort der lagrer krypterede passwords.
+Dette kort skal bruges i alle login der udføres i en virksomhed, det vil sige både fysisk indgang til bygningen, login til computere, login i programmer samt licenser til produkter som word og matlab.
+
+Det hele kobles sammen af en lokal central der indeholder alle passwords.
+Ved brug af kortet synkroniseres dette samtidig.
+Dette betyder at al administrering af koder kan styres, og medarbejderen skal derfor ikke tænke over hverken kodestyrke eller fornyelse af kode.
+Ligeså snart der er en ny kode der skal benyttes i en arbejdsgang vil denne blive synkroniseret.
 
 \input{content/storytelling}
+
+\section{Værdiskabelse}
+For at være bæredygtig på markedet er det vigtigt at vide hvilke styrker og svagheder ens firma har.
+\citep[p.~11]{rose2012software} præsenterer teorier fra entreprenørskab der kan beskrive hvordan firmaer skaber værdi på et marked.
+Et udpluk af disse teorier vil her blive gennemgået for at have et godt fundament inden der skabes en konkret business model.
 
 \input{content/value-chain.tex}
 
@@ -51,26 +59,15 @@ Automatisk opdatering af intra-net systemers nøgler (tænk nyt password hver m�
 
 \section{Business model}
 \input{content/bm.tex}
-\input{content/valueproposition}
-\paragraph{How does the canvas model change over time?}
-Lige nu er der meget fokus på sikkerhed så det er godt at hoppe ind på markedet nu - det kan være at dette fokus ændre sig.
-Det ligger op til at undersøge nye markeder.
-En mulighed er at udvide til det private marked, dvs. at customer segments bliver udvidet.
-En anden mulighed er at tilbyde flere services:
-\begin{itemize}
-\item Tilbyde forskellige slags hardware løsninger til at opbevare passwords(i stedet for kun NFC).
-\item Tilbyde en server til at distribuere passwords til kunder.
-\end{itemize}
-Hvis disse to services tilføjes ændres value proposition så vores løsning kan skræddersyes mere til kunden.
-Key activities og key resources ændres da der nu skal tages højde for at udvikle og vedligeholde de nye services.
-For at spare penge som virksomhed eller gøre det mere tilgængeligt for kunder med færre midler kunne man ændre after sales til at foregå over en webside.
-Dette ændrer revenue streams til at der tilbydes billigere support eller kun en slags support over webside.
-Det ændrer også customer segments fordi det giver adgang til firmaer og private med færre midler.
 
-\subsection{Pattern overvejelser}
+\input{content/process}
+\input{content/valueproposition}
+
 \input{content/patterns}
 
 \input{content/strategy}
+
+\input{content/aendringerOverTid}
 
 \section{Analyse, design and enact(ADE) eller consider, do and adjust(CDA)}
 \label{paradigme}
